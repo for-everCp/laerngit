@@ -1,5 +1,7 @@
 <?php
-if ((($_userheadS["userhead"]["type"] == "image/gif")
+
+print_r("$POST");
+/**if ((($_userheadS["userhead"]["type"] == "image/gif")
 || ($_userheadS["userhead"]["type"] == "image/jpeg")
 || ($_userheadS["userhead"]["type"] == "image/pjpeg"))
 && ($_userheadS["userhead"]["size"] < 20000))
@@ -30,5 +32,5 @@ if ((($_userheadS["userhead"]["type"] == "image/gif")
 else
   {
   echo "Invalid userhead";
-  }
+  }*/
 ?>
